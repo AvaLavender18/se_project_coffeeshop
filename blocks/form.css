@@ -61,8 +61,3 @@
   vertical-align: middle;
   border-radius: 2px;
 }
-
-.form__input[type="form_checkbox"]:focus {
-  background-color: #2f80ed;
-  background-image: url("/images/check.svg");
-}
