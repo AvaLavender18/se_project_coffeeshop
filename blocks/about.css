@@ -17,16 +17,14 @@
   justify-content: space-between;
   position: relative;
   overflow: hidden;
+  padding-bottom: 173px;
 }
 
 .about__title {
   color: #fff;
-  position: relative;
-  margin: 0;
-  top: 100px;
-  left: 80px;
+  margin: 0 0 0 0;
+  padding: 100px 0 0 80px;
   max-width: 251px;
-  height: 251px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -34,21 +32,19 @@
 }
 
 .about__content {
-  /* text-align: left; */
   max-width: 660px;
-  padding: 119px 80px 173px;
+  padding: 119px 80px 0 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .about__paragraph {
-  gap: 20px;
   color: #fff;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-size: 20px;
   line-height: 30px;
+  margin: 0 0 0 0;
 }
 
 .about__circle {
